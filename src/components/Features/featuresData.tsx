@@ -2,7 +2,7 @@ import { Feature } from "@/types/feature";
 
 const featuresData: Feature[] = [
   {
-    id: 1,
+    id: 1,//test
     icon: (
       <svg width="40" height="41" viewBox="0 0 40 41" className="fill-current">
         <path
