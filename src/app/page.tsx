@@ -13,7 +13,8 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "TriumphTech",
-  description: "TriumphTech is a modern and creative technology company that specializes in delivering cutting-edge technology solutions tailored to your needs.",
+  description:
+    "TriumphTech is a modern and creative technology company that specializes in delivering cutting-edge technology solutions tailored to your needs.",
   // other metadata
 };
 
@@ -27,10 +28,10 @@ export default function Home() {
       {/* <Brands /> */}
       <AboutSectionOne />
       <AboutSectionTwo />
-      <Testimonials />
-      {/* <Pricing />
-      <Blog /> */}
-      <Contact />
+      {/* <Testimonials /> */}
+      {/* <Pricing /> */}
+      <Blog />
+      {/* <Contact /> */}
     </>
   );
 }
