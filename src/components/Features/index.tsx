@@ -9,11 +9,11 @@ const Features = () => {
         <div className="container">
           <SectionTitle
             title="What we offer?"
-            paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+            paragraph="We specialize in delivering cutting-edge technology solutions tailored to your needs. we’ve got you covered!"
             center
           />
-
-          <div className="grid grid-cols-1 gap-x-8 gap-y-14 md:grid-cols-2 lg:grid-cols-3">
+          {/* changed grid into 2 col for lg-screen */}
+          <div className="grid grid-cols-1 gap-x-8 gap-y-14 md:grid-cols-2 lg:grid-cols-2"> 
             {featuresData.map((feature) => (
               <SingleFeature key={feature.id} feature={feature} />
             ))}
