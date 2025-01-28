@@ -65,7 +65,7 @@ const Pricing = () => {
             packageName="Lite"
             price={isMonthly ? "399.000" : ""}
             duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            // subtitle="Your website, your way—customizable plans with premium features."
           >
             <OfferList
               text="15 Exclusive Templates (Choose from 15 designs)"
@@ -85,7 +85,7 @@ const Pricing = () => {
             packageName="Basic"
             price={isMonthly ? "999.000" : "789"}
             duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            // subtitle="Your website, your way—customizable plans with premium features."
           >
             <OfferList
               text="50 Exclusive Templates (Choose from 50 designs)"
