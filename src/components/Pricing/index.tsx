@@ -13,7 +13,12 @@ const Pricing = () => {
       className="flex-between relative z-10 py-16 md:py-20 lg:py-28"
     >
       <div className="container">
-        <SectionTitle title="Packages" paragraph="lorem" center width="665px" />
+        <SectionTitle
+          title="Packages"
+          paragraph="Perfect for Company Profiles, Marketplaces, and E-Commerce Websites.&nbsp;Chat with us via WhatsApp for advanced or customized requirements."
+          center
+          width="665px"
+        />
 
         {/* <div className="w-full">
           <div className="mb-8 flex justify-center md:mb-12 lg:mb-16">
@@ -62,12 +67,19 @@ const Pricing = () => {
             duration={isMonthly ? "mo" : "yr"}
             subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="inactive" />
-            <OfferList text="Free Lifetime Updates" status="inactive" />
+            <OfferList
+              text="15 Exclusive Templates (Choose from 15 designs)"
+              status="active"
+            />
+            <OfferList text="1 Custom Domain Included" status="active" />
+            <OfferList text="200MB High-Speed Hosting" status="active" />
+            <OfferList
+              text="Advanced Security (Virus & Hacker Protection)"
+              status="active"
+            />
+            <OfferList text="Free Q&A & Guidance" status="active" />
+            <OfferList text="No Background Customization" status="inactive" />
+            <OfferList text="No Header Customization" status="inactive" />
           </PricingBox>
           <PricingBox
             packageName="Basic"
@@ -75,12 +87,19 @@ const Pricing = () => {
             duration={isMonthly ? "mo" : "yr"}
             subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="active" />
-            <OfferList text="Free Lifetime Updates" status="inactive" />
+            <OfferList
+              text="50 Exclusive Templates (Choose from 50 designs)"
+              status="active"
+            />
+            <OfferList text="1 Custom Domain Included" status="active" />
+            <OfferList text="350MB High-Speed Hosting" status="active" />
+            <OfferList
+              text="Advanced Security (Virus & Hacker Protection)"
+              status="active"
+            />
+            <OfferList text="Free Q&A & Guidance" status="active" />
+            <OfferList text="Background Customization" status="active" />
+            <OfferList text="Header Customization" status="active" />
           </PricingBox>
         </div>
 
