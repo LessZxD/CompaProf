@@ -12,9 +12,9 @@ import Video from "@/components/Video";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "TriumphTech",
+  title: "TriumpTech",
   description:
-    "TriumphTech is a modern and creative technology company that specializes in delivering cutting-edge technology solutions tailored to your needs.",
+    "TriumpTech is a modern and creative technology company that specializes in delivering cutting-edge technology solutions tailored to your needs.",
   // other metadata
 };
 

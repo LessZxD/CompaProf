@@ -14,7 +14,7 @@ const featuresData: Feature[] = [
     ),
     title: "Web Development",
     paragraph:
-      "Create modern, responsive websites designed to captivate your audience and enhance user experience.",
+      "We build modern, responsive websites that are optimized for speed, functionality, and user experience. From business websites to e-commerce platforms, we ensure that your online presence is professional and easy to navigate.",
   },
   {
     id: 1,
@@ -29,7 +29,7 @@ const featuresData: Feature[] = [
     ),
     title: "Data Analytics",
     paragraph:
-      "Optimize your business performance through advanced analytics and intuitive visualization.",
+      "We help businesses track key performance indicators, analyze trends, and simplify complex data into meaningful reports, making it easier to identify opportunities and optimize strategies",
   },
   {
     id: 1,
@@ -44,7 +44,7 @@ const featuresData: Feature[] = [
     ),
     title: "Mobile App Development",
     paragraph:
-      "Develop user-friendly mobile apps with tailored features to meet your unique requirements with seamless functionality..",
+      "We design and develop user-friendly mobile apps that fit your business needs. Whether it’s an e-commerce app, a booking system, or a service-based application, we focus on creating smooth, intuitive, and reliable experiences for your users",
   },
   // {
   //   id: 1,
@@ -87,9 +87,9 @@ const featuresData: Feature[] = [
         <path d="M18.9474 32.6316C18.9474 35.4705 19.8099 38.0969 21.2941 40.2796C21.7904 41.0094 21.3054 42.1053 20.4229 42.1053H4.21053C1.87368 42.1053 0 40.2316 0 37.8947V4.21053C0 1.89474 1.87368 0 4.21053 0H6.31579H16.8421H29.4737C31.7895 0 33.6842 1.87368 33.6842 4.21053V17.9544C33.6842 18.5032 33.1804 18.9474 32.6316 18.9474C25.0737 18.9474 18.9474 25.0737 18.9474 32.6316Z" />
       </svg>
     ),
-    title: "Triump Gadgets",
+    title: "Digital Marketing & SEO",
     paragraph:
-      "We provide reliable buy and sell services for Apple products, including iPhones, iPads, MacBooks, and more.",
+      "We help businesses enhance their online presence through SEO, content marketing, social media management, Eensuring better visibility, increased traffic, and higher conversions with data-driven strategies tailored to their goals.",
   },
 ];
 export default featuresData;
