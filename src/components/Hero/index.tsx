@@ -2,8 +2,9 @@
 
 import Link from "next/link";
 import React from "react";
+import { whatsappLink } from "@/config/whatsapp";
 
-const Hero = () => {
+const Hero = () => {  
   const scrollToContact = (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault();
     const contactSection = document.getElementById("contact");
@@ -19,7 +20,7 @@ const Hero = () => {
         className="relative z-10 h-screen overflow-hidden bg-white pb-16 pt-[120px] dark:bg-gray-dark md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
       >
         <div className="container">
-          <div className="mt-44 -mx-4 flex flex-wrap">
+          <div className="-mx-4 mt-16 flex flex-wrap">
             <div className="h-full w-full px-4">
               <div className="mx-auto max-w-[800px] text-center">
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
@@ -27,20 +28,33 @@ const Hero = () => {
                 </h1>
                 <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
                   Your future digitalization starts here
+                  <br />
+                  Starting from{" "}
+                  <span className="text-3xl font-bold text-primary">
+                    399.000 IDR
+                  </span>
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
-                  <Link
+                  {/* <Link
                     href="#contact"
                     onClick={scrollToContact}
                     className="rounded-sm bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
                   >
                     Contact Us
-                  </Link>
-                  <Link
+                  </Link> */}
+                  {/* <Link
                     href="#features"
                     className="inline-block rounded-sm bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5"
                   >
                     Explore more
+                  </Link> */}
+                  <Link
+                    href={whatsappLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="rounded-sm bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
+                  >
+                    Contact Us
                   </Link>
                 </div>
               </div>
