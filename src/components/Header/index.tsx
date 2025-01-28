@@ -57,11 +57,12 @@ const Header = () => {
                 } `}
               >
                 <Image
-                  src="/images/logo/logo-2.svg"
+                  // src="/images/logo/logo-2.svg"
+                  src="/images/logo/Trium.svg"
                   alt="logo"
-                  width={140}
+                  width={30}
                   height={30}
-                  className="w-full dark:hidden"
+                  className="w-full dark:hidden max-h-20"
                 />
                 {/* <Image
                   src="/images/logo/logo.svg"
