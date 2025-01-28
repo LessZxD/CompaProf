@@ -26,13 +26,16 @@ const AboutSectionTwo = () => {
           </div>
           <div className="w-full px-4 lg:w-1/2">
             <div className="max-w-[470px]">
-              <h1 className="mb-6 text-3xl font-bold text-black dark:text-white sm:text-3xl lg:text-4xl xl:text-4xl">Our after-sales Support</h1>
+              <h1 className="mb-6 text-3xl font-bold text-black dark:text-white sm:text-3xl lg:text-4xl xl:text-4xl">
+                Our after-sales Support
+              </h1>
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-semibold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
                   On Going Support
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                regular updates, bug fixes, and performance enhancements to keep your website, app, or system running smoothly.
+                  Regular updates, bug fixes, and performance enhancements to
+                  keep your website, app, or system running smoothly.
                 </p>
               </div>
               <div className="mb-9">
@@ -40,7 +43,8 @@ const AboutSectionTwo = () => {
                   Customer Support
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                Our support team is available to assist with any issues, troubleshooting, or inquiries regarding your project.
+                  Our support team is available to assist with any issues,
+                  troubleshooting, or inquiries regarding your project.
                 </p>
               </div>
               <div className="mb-1">
@@ -48,7 +52,8 @@ const AboutSectionTwo = () => {
                   Performance Monitoring
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Continuous monitoring and optimize speed, security, and scalability to enhance your system’s performance.
+                  Continuous monitoring and optimize speed, security, and
+                  scalability to enhance your system’s performance.
                 </p>
               </div>
             </div>
