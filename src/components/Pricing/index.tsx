@@ -55,7 +55,7 @@ const Pricing = () => {
           </div>
         </div> */}
 
-        <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-2">
           <PricingBox
             packageName="Lite"
             price={isMonthly ? "40" : "120"}
@@ -83,8 +83,9 @@ const Pricing = () => {
             <OfferList text="Free Lifetime Updates" status="inactive" />
           </PricingBox>
         </div>
+
         <br></br>
-        <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
+        {/* <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
           <PricingBox
             packageName="Lite"
             price={isMonthly ? "40" : "120"}
@@ -111,7 +112,7 @@ const Pricing = () => {
             <OfferList text="Lifetime Access" status="active" />
             <OfferList text="Free Lifetime Updates" status="inactive" />
           </PricingBox>
-        </div>
+        </div> */}
       </div>
 
       <div className="absolute bottom-0 left-0 z-[-1]">
