@@ -24,7 +24,7 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Web Development for Businesses, Stores, and More"
+                title="App Development for Businesses, Stores, and More"
                 paragraph="Specializing in creating modern, scalable, and high-performance websites tailored to meet unique needs. From e-commerce stores to corporate company profiles, ensuring a professional and effective online presence."
                 mb="44px"
               />
