@@ -62,7 +62,7 @@ const Header = () => {
                   alt="logo"
                   width={30}
                   height={30}
-                  className="max-h-20 w-full dark:hidden"
+                  className="max-h-15 w-full dark:hidden"
                 />
                 {/* <Image
                   src="/images/logo/logo.svg"
