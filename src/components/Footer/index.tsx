@@ -9,22 +9,22 @@ const Footer = () => {
         <div className="container">
           <div className="-mx-4 flex flex-wrap justify-between">
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
-              <div className="mb-12 max-w-[360px] lg:mb-16">
-                <Link href="/" className="mb-8 inline-block">
+              <div className="mb-17 max-w-[340px] max-h-[500px] lg:mb-16">
+                <Link href="/" className="inline-block">
                   <Image
                     src="/images/logo/Trium.svg"
                     alt="logo"
-                    className="w-full dark:hidden"
+                    className="w-1/2 dark:hidden"
                     width={140}
                     height={30}
                   />
-                  <Image
+                  {/* <Image
                     src="/images/logo/Trium.svg"
                     alt="logo"
                     className="hidden w-full dark:block"
                     width={140}
                     height={30}
-                  />
+                  /> */}
                 </Link>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
                   Empowering businesses with technology and innovation.
