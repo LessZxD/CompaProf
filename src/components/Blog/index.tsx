@@ -10,7 +10,7 @@ const Blog = () => {
     >
       <div className="container">
         <SectionTitle
-          title="Our Works"
+          title="Our Portfolio"
           paragraph=""
           center
         />
