@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   title: "TriumTech",
   description:
     "TriumTech is a modern and creative technology company that specializes in delivering cutting-edge technology solutions tailored to your needs.",
-  icons: "/images/logo/Trium.svg", // Adds the SVG as the favicon
+  icons: "/images/logo/T.svg", // Adds the SVG as the favicon
 };
 
 export default function Home() {
