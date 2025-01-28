@@ -53,15 +53,16 @@ const Header = () => {
               <Link
                 href="/"
                 className={`header-logo block w-full ${
-                  sticky ? "py-5 lg:py-2" : "py-8"
+                  sticky ? "py-5 lg:py-2" : "py-2"
                 } `}
               >
                 <Image
-                  src="/images/logo/logo-2.svg"
+                  // src="/images/logo/logo-2.svg"
+                  src="/images/logo/Trium.svg"
                   alt="logo"
-                  width={140}
+                  width={30}
                   height={30}
-                  className="w-full dark:hidden"
+                  className="max-h-20 w-full dark:hidden"
                 />
                 {/* <Image
                   src="/images/logo/logo.svg"
