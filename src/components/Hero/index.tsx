@@ -38,7 +38,7 @@ const Hero = () => {
                   Your future digitalization starts here
                   <br />
                   Starting from{" "}
-                  <span className="text-3xl font-bold text-primary">
+                  <span className="text-3xl lg:text-3xl font-bold text-primary">
                     399.000 IDR
                   </span>
                 </p>
