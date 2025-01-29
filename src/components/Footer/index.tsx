@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="container">
           <div className="-mx-4 flex flex-wrap justify-between">
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
-              <div className="mb-17 max-w-[340px] max-h-[500px] lg:mb-16">
+              <div className="mb-17 max-h-[500px] max-w-[340px] lg:mb-16">
                 <Link href="/" className="inline-block">
                   <Image
                     src="/images/logo/Trium.svg"
@@ -105,10 +105,8 @@ const Footer = () => {
                     </svg>
                   </a>
                 </div> */}
-                
               </div>
             </div>
-
 
             {/* <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
@@ -211,7 +209,6 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
-
           </div>
 
           <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
